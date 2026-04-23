@@ -376,10 +376,10 @@ $testimonials = $conn->query("
         <div class="team-teaser-grid">
             <?php
             $teaserTeam = [
-                ['name'=>'Alex Johnson',    'role'=>'Team Lead & Backend Dev',      'phase'=>'Phase 1', 'color'=>'#6c63ff', 'bg'=>'#ede9fe', 'avatar'=>'dev1.png'],
-                ['name'=>'Sarah Williams',  'role'=>'Full Stack Developer',          'phase'=>'Phase 2', 'color'=>'#3b82f6', 'bg'=>'#dbeafe', 'avatar'=>'dev2.png'],
-                ['name'=>'Michael Chen',    'role'=>'Frontend & Integration Dev',    'phase'=>'Phase 3', 'color'=>'#10b981', 'bg'=>'#d1fae5', 'avatar'=>'dev3.png'],
-                ['name'=>'Emily Rodriguez', 'role'=>'UI/UX Designer & Frontend Dev', 'phase'=>'Phase 4', 'color'=>'#f59e0b', 'bg'=>'#fef3c7', 'avatar'=>'dev4.png'],
+                ['name'=>'Jubaidul Islam Rimon',    'role'=>'Team Lead & Backend Dev',      'phase'=>'Phase 1', 'color'=>'#6c63ff', 'bg'=>'#ede9fe', 'avatar'=>'dev1.png'],
+                ['name'=>'Sabbir Alam Alif',  'role'=>'Full Stack Developer',          'phase'=>'Phase 2', 'color'=>'#3b82f6', 'bg'=>'#dbeafe', 'avatar'=>'dev2.png'],
+                ['name'=>'Taskin Tanisha Tahsin',    'role'=>'Frontend & Integration Dev',    'phase'=>'Phase 3', 'color'=>'#10b981', 'bg'=>'#d1fae5', 'avatar'=>'dev3.png'],
+                ['name'=>'Tasmim Jewel Joya', 'role'=>'UI/UX Designer & Frontend Dev', 'phase'=>'Phase 4', 'color'=>'#f59e0b', 'bg'=>'#fef3c7', 'avatar'=>'dev4.png'],
             ];
             foreach ($teaserTeam as $m): ?>
             <div class="teaser-card">
